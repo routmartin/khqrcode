@@ -1,0 +1,4 @@
+name: khqr_example
+dependencies:
+  khqrcode:
+    path: ../
