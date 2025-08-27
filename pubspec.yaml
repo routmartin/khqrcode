@@ -1,18 +1,18 @@
 name: khqrcode
 description: Cambodia KHQR (QR Code Payment) library for Dart/Flutter. Generate and decode KHQR codes for Bakong payment system.
-version: 1.0.0
-homepage: https://github.com/yourusername/khqrcode
-repository: https://github.com/yourusername/khqrcode
+version: 1.0.1
+homepage: https://github.com/routmartin/khqrcode
+repository: https://github.com/routmartin/khqrcode
 
 environment:
-  sdk: ^3.8.1
+  sdk: "^3.8.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.5
-  crypto: ^3.0.2
+  http: ^1.5.0
+  crypto: ^3.0.6
 
 dev_dependencies:
   flutter_test:

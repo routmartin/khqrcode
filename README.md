@@ -34,10 +34,10 @@ dart pub get
 import 'package:khqrcode/khqrcode.dart';
 
 final individualInfo = IndividualInfo(
-  bakongAccountId: 'receivekhqr@dvpy',
+  bakongAccountId: 'receivekhqr@yourbank',
   accountInformation: "021550815",
   merchantName: 'M Sovan',
-  acquiringBank: 'DVPAY',
+  acquiringBank: 'YOUR BANK',
   expirationTimestamp: DateTime.now().add(Duration(minutes: 15)).millisecondsSinceEpoch,
   merchantCity: 'Phnom Penh',
   currency: KHQRDataConst.currency['khr']!,
@@ -57,9 +57,9 @@ if (result.isSuccess) {
 
 ```dart
 final merchantInfo = MerchantInfo(
-  acquiringBankName: "DVPAY",
+  acquiringBankName: "YOUR BANK",
   merchantId: "234234234",
-  bakongAccountId: 'receivekhqr@dvpy',
+  bakongAccountId: 'receivekhqr@yourbank',
   merchantName: 'FLick Coffee',
   merchantCity: 'Phnom Penh',
   currency: KHQRDataConst.currency['khr']!,
@@ -95,4 +95,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### Issues
 
-If you encounter any issues, please file them on the [GitHub repository](https://github.com/yourusername/khqrcode/issues).
+If you encounter any issues, please file them on the [GitHub repository](https://github.com/routmartin/khqrcode/issues).

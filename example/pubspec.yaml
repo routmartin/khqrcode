@@ -1,4 +1,8 @@
 name: khqr_example
+
+environment:
+  sdk: "^3.8.0"
+
 dependencies:
   khqrcode:
     path: ../

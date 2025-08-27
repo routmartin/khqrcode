@@ -3,10 +3,10 @@ import '../lib/khqrcode.dart';
 void main() async {
   // Example 1: Generate Individual QR
   final individualInfo = IndividualInfo(
-    bakongAccountId: 'receivekhqr@dvpy',
+    bakongAccountId: 'receivekhqr@yourbank',
     accountInformation: "021550815",
     merchantName: 'M Sovan',
-    acquiringBank: 'DVPAY',
+    acquiringBank: 'YOUR BANK',
     expirationTimestamp: DateTime.now().add(Duration(minutes: 15)).millisecondsSinceEpoch,
     merchantCity: 'Phnom Penh',
     currency: KHQRDataConst.currency['khr']!,

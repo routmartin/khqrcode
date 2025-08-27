@@ -1,3 +1,8 @@
+## 1.0.1
+
+- Updated repository URLs in pubspec.yaml and README.md
+- Added proper GitHub repository links for pub.dev package page
+
 ## 1.0.0
 
 - Initial release of KHQR (Cambodia QR Code Payment) library
